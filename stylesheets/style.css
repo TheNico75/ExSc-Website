@@ -59,22 +59,22 @@ header span{
   margin-bottom: 1.6em
 }
 
-header nav{
-  float: right;
-  text-align: right
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Pour aligner le texte à droite */
+  height: 100%;
 }
+
 header nav div{
   font-size: .8em;
 }
 
-header nav div a {
+header nav a {
   font-weight: 300;
-  padding: .3em .5em
-}
-
-header nav a{
+  padding: .3em .5em;
   color: #fff;
-  display: inline-block;
+  display: flex;
   padding: .3em .8em
 }
 
